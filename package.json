@@ -1,0 +1,21 @@
+{
+  "name": "panopticon.js",
+  "version": "0.2.0",
+  "description": "Recursive state management library",
+  "main": "lib/panopticon.js",
+  "files": [
+    "lib/*.js",
+    "lib/utils/*.js"
+  ],
+  "scripts": {
+    "test": "mocha",
+    "pub": "npm publish --registry http://localhost:4873"
+  },
+  "author": "0E9B061F",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
